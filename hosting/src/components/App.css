@@ -1,0 +1,48 @@
+.Photo {
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.Photo img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.Annotations {
+  z-index: 100;
+  position: fixed;
+  margin: 16px;
+}
+
+.Annotation {
+  margin: 4px;
+  padding: 4px;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.CameraButton {
+  z-index: 100;
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+}
+
+.CameraButton button {
+  position: relative;
+  left: -30px;
+  width: 60px;
+  height: 60px;
+  background-image: url('camera-icon.png');
+  background-size: 60px;
+  background-color: transparent;
+  border: none;
+}
+
+.CameraButton input {
+  display: none;
+}

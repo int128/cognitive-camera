@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "hosting/build",
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "app"
+      }
+    ]
+  }
+}
